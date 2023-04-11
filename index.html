@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./noticias/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./noticias/fonts/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Notícias</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <h1>
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <span class="logo">As notícias a cada minuto</span>
+                </h1>
+            </div>
+            <div class="col-lg-4 d-flex flex-row-reverse align-items-center">
+                <a href="#" class="btn btn-danger">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#" class="btn btn-primary">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#" class="btn btn-success">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#" class="btn btn-info" id="icon">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="#"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Sobre</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Notícias
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Internacional</a></li>
+                              <li><a class="dropdown-item" href="#">Nacional</a></li>
+                              <li><a class="dropdown-item" href="#">Regional</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Política</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Cultura</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Esportes</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Entretenimento</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                          <button class="btn btn-secondary" type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-lg-8">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div data-bs-interval="1000"class="carousel-item active">
+                        <img src="./noticias/images/flaxflu.jpg" class="d-block w-100 h-70" alt="futebol">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Final do Cariocão</h5>
+                          <p>Flamengo e Fluminense se enfrentam hoje para decidir a final do Campeonato Carioca</p>
+                        </div>
+                      </div>
+                      <div data-bs-interval="1000" class="carousel-item">
+                        <img src="./noticias/images/policiamento.jpg" class="d-block w-100" alt="policia">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Reforço de policiamento</h5>
+                          <p>Com ameaças às escolas, a Polícia Militar reforça segurança</p>
+                        </div>
+                      </div>
+                      <div data-bs-interval="1000" class="carousel-item">
+                        <img src="./noticias/images/politica.jpg" class="d-block w-100" alt="politica">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Desafios na política</h5>
+                          <p>Os 100 dias do Governo Lula</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Canal BBB 23
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <img class="w-100" src="./noticias/images/bbb.jpg" alt="participantes">
+                          <strong>Saiba quem são os participantes que permanecem na casa mais vigiada</strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Notícias Prime
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <img class="w-100" src="./noticias/images/bolsonaro.webp" alt="participantes">
+                          <strong>Bolsonaro perde de lavada no TSE em recurso contra Alexandre de Moraes</strong>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col-lg-4">
+            <div class="card border-0 rounded-0" style="width: 100%">
+              <img src="./noticias/images/dolar.jpg" class="card-img-top rounded-0" alt="dolar">
+              <div class="card-body">
+                <p class="card-text">Dólar chega a ficar abaixo de R$5 pela 1ª vez em mais de 2 meses; Bolsa sobe</p>
+                <a href="#" class="btn">| O que animou os mercados?</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0 rounded-0" style="width: 100%">
+              <img src="./noticias/images/tecnico.webp" class="card-img-top rounded-0" alt="tecnico">
+              <div class="card-body">
+                <p class="card-text">Flamengo apresenta proposta a Jesus e aguarda retorno antes de plano B</p>
+                <a href="#" class="btn">| Futebol rubro-negro</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0 rounded-0" style="width: 100%">
+              <img src="./noticias/images/fut-fem.jpg" class="card-img-top rounded-0" alt="futebol-feminino">
+              <div class="card-body">
+                <p class="card-text">Brasil vence Alemanha no último amistoso antes da copa por 2 a 1 </p>
+                <a href="#" class="btn">| Seleção Feminina de Futebol</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    <script src="./noticias/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
